@@ -7,21 +7,7 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		6C8A906B2FDAE118009C5F4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6C8A90502FDAE115009C5F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C8A90572FDAE115009C5F4F;
-			remoteInfo = KaffaTracker;
-		};
-		6C8A90752FDAE118009C5F4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6C8A90502FDAE115009C5F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C8A90572FDAE115009C5F4F;
-			remoteInfo = KaffaTracker;
-		};
-		6CDFBF432FE7CB0900A9F99B /* PBXContainerItemProxy */ = {
+		6CBA58563006220900E393D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6C8A90502FDAE115009C5F4F /* Project object */;
 			proxyType = 1;
@@ -32,9 +18,7 @@
 
 /* Begin PBXFileReference section */
 		6C8A90582FDAE115009C5F4F /* KaffaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaffaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C8A906A2FDAE118009C5F4F /* KaffaTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffaTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C8A90742FDAE118009C5F4F /* KaffaTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffaTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CDFBF3F2FE7CB0900A9F99B /* KaffaTracker1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffaTracker1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBA58523006220900E393D6 /* KaffaTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffaTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,14 +27,9 @@
 			path = KaffaTracker;
 			sourceTree = "<group>";
 		};
-		6C8A906D2FDAE118009C5F4F /* KaffaTrackerTests */ = {
+		6CBA58533006220900E393D6 /* KaffaTrackerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = KaffaTrackerTests;
-			sourceTree = "<group>";
-		};
-		6C8A90772FDAE118009C5F4F /* KaffaTrackerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KaffaTrackerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -63,21 +42,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C8A90672FDAE118009C5F4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C8A90712FDAE118009C5F4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CDFBF3C2FE7CB0900A9F99B /* Frameworks */ = {
+		6CBA584F3006220900E393D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,8 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				6C8A905A2FDAE115009C5F4F /* KaffaTracker */,
-				6C8A906D2FDAE118009C5F4F /* KaffaTrackerTests */,
-				6C8A90772FDAE118009C5F4F /* KaffaTrackerUITests */,
+				6CBA58533006220900E393D6 /* KaffaTrackerTests */,
 				6C8A90592FDAE115009C5F4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,9 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				6C8A90582FDAE115009C5F4F /* KaffaTracker.app */,
-				6C8A906A2FDAE118009C5F4F /* KaffaTrackerTests.xctest */,
-				6C8A90742FDAE118009C5F4F /* KaffaTrackerUITests.xctest */,
-				6CDFBF3F2FE7CB0900A9F99B /* KaffaTracker1Tests.xctest */,
+				6CBA58523006220900E393D6 /* KaffaTrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,70 +95,27 @@
 			productReference = 6C8A90582FDAE115009C5F4F /* KaffaTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6C8A90692FDAE118009C5F4F /* KaffaTrackerTests */ = {
+		6CBA58513006220900E393D6 /* KaffaTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C8A90812FDAE118009C5F4F /* Build configuration list for PBXNativeTarget "KaffaTrackerTests" */;
+			buildConfigurationList = 6CBA58583006220900E393D6 /* Build configuration list for PBXNativeTarget "KaffaTrackerTests" */;
 			buildPhases = (
-				6C8A90662FDAE118009C5F4F /* Sources */,
-				6C8A90672FDAE118009C5F4F /* Frameworks */,
-				6C8A90682FDAE118009C5F4F /* Resources */,
+				6CBA584E3006220900E393D6 /* Sources */,
+				6CBA584F3006220900E393D6 /* Frameworks */,
+				6CBA58503006220900E393D6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6C8A906C2FDAE118009C5F4F /* PBXTargetDependency */,
+				6CBA58573006220900E393D6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				6C8A906D2FDAE118009C5F4F /* KaffaTrackerTests */,
+				6CBA58533006220900E393D6 /* KaffaTrackerTests */,
 			);
 			name = KaffaTrackerTests;
 			packageProductDependencies = (
 			);
 			productName = KaffaTrackerTests;
-			productReference = 6C8A906A2FDAE118009C5F4F /* KaffaTrackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6C8A90732FDAE118009C5F4F /* KaffaTrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6C8A90842FDAE118009C5F4F /* Build configuration list for PBXNativeTarget "KaffaTrackerUITests" */;
-			buildPhases = (
-				6C8A90702FDAE118009C5F4F /* Sources */,
-				6C8A90712FDAE118009C5F4F /* Frameworks */,
-				6C8A90722FDAE118009C5F4F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6C8A90762FDAE118009C5F4F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6C8A90772FDAE118009C5F4F /* KaffaTrackerUITests */,
-			);
-			name = KaffaTrackerUITests;
-			packageProductDependencies = (
-			);
-			productName = KaffaTrackerUITests;
-			productReference = 6C8A90742FDAE118009C5F4F /* KaffaTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		6CDFBF3E2FE7CB0900A9F99B /* KaffaTracker1Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6CDFBF452FE7CB0900A9F99B /* Build configuration list for PBXNativeTarget "KaffaTracker1Tests" */;
-			buildPhases = (
-				6CDFBF3B2FE7CB0900A9F99B /* Sources */,
-				6CDFBF3C2FE7CB0900A9F99B /* Frameworks */,
-				6CDFBF3D2FE7CB0900A9F99B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6CDFBF442FE7CB0900A9F99B /* PBXTargetDependency */,
-			);
-			name = KaffaTracker1Tests;
-			packageProductDependencies = (
-			);
-			productName = KaffaTracker1Tests;
-			productReference = 6CDFBF3F2FE7CB0900A9F99B /* KaffaTracker1Tests.xctest */;
+			productReference = 6CBA58523006220900E393D6 /* KaffaTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -212,15 +131,7 @@
 					6C8A90572FDAE115009C5F4F = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					6C8A90692FDAE118009C5F4F = {
-						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 6C8A90572FDAE115009C5F4F;
-					};
-					6C8A90732FDAE118009C5F4F = {
-						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 6C8A90572FDAE115009C5F4F;
-					};
-					6CDFBF3E2FE7CB0900A9F99B = {
+					6CBA58513006220900E393D6 = {
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = 6C8A90572FDAE115009C5F4F;
 					};
@@ -241,9 +152,7 @@
 			projectRoot = "";
 			targets = (
 				6C8A90572FDAE115009C5F4F /* KaffaTracker */,
-				6C8A90692FDAE118009C5F4F /* KaffaTrackerTests */,
-				6C8A90732FDAE118009C5F4F /* KaffaTrackerUITests */,
-				6CDFBF3E2FE7CB0900A9F99B /* KaffaTracker1Tests */,
+				6CBA58513006220900E393D6 /* KaffaTrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,21 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C8A90682FDAE118009C5F4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C8A90722FDAE118009C5F4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CDFBF3D2FE7CB0900A9F99B /* Resources */ = {
+		6CBA58503006220900E393D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,21 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C8A90662FDAE118009C5F4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C8A90702FDAE118009C5F4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CDFBF3B2FE7CB0900A9F99B /* Sources */ = {
+		6CBA584E3006220900E393D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,20 +192,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C8A906C2FDAE118009C5F4F /* PBXTargetDependency */ = {
+		6CBA58573006220900E393D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6C8A90572FDAE115009C5F4F /* KaffaTracker */;
-			targetProxy = 6C8A906B2FDAE118009C5F4F /* PBXContainerItemProxy */;
-		};
-		6C8A90762FDAE118009C5F4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6C8A90572FDAE115009C5F4F /* KaffaTracker */;
-			targetProxy = 6C8A90752FDAE118009C5F4F /* PBXContainerItemProxy */;
-		};
-		6CDFBF442FE7CB0900A9F99B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6C8A90572FDAE115009C5F4F /* KaffaTracker */;
-			targetProxy = 6CDFBF432FE7CB0900A9F99B /* PBXContainerItemProxy */;
+			targetProxy = 6CBA58563006220900E393D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -514,7 +385,7 @@
 			};
 			name = Release;
 		};
-		6C8A90822FDAE118009C5F4F /* Debug */ = {
+		6CBA58593006220900E393D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,7 +393,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HLHRK4WVA3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaffascha.KaffaTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,7 +406,7 @@
 			};
 			name = Debug;
 		};
-		6C8A90832FDAE118009C5F4F /* Release */ = {
+		6CBA585A3006220900E393D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,91 +414,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HLHRK4WVA3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaffascha.KaffaTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaffaTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaffaTracker";
-			};
-			name = Release;
-		};
-		6C8A90852FDAE118009C5F4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HLHRK4WVA3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaffascha.KaffaTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KaffaTracker;
-			};
-			name = Debug;
-		};
-		6C8A90862FDAE118009C5F4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HLHRK4WVA3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaffascha.KaffaTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KaffaTracker;
-			};
-			name = Release;
-		};
-		6CDFBF462FE7CB0900A9F99B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HLHRK4WVA3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaffascha.KaffaTracker1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaffaTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaffaTracker";
-			};
-			name = Debug;
-		};
-		6CDFBF472FE7CB0900A9F99B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HLHRK4WVA3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaffascha.KaffaTracker1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -661,29 +448,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C8A90812FDAE118009C5F4F /* Build configuration list for PBXNativeTarget "KaffaTrackerTests" */ = {
+		6CBA58583006220900E393D6 /* Build configuration list for PBXNativeTarget "KaffaTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C8A90822FDAE118009C5F4F /* Debug */,
-				6C8A90832FDAE118009C5F4F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6C8A90842FDAE118009C5F4F /* Build configuration list for PBXNativeTarget "KaffaTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6C8A90852FDAE118009C5F4F /* Debug */,
-				6C8A90862FDAE118009C5F4F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6CDFBF452FE7CB0900A9F99B /* Build configuration list for PBXNativeTarget "KaffaTracker1Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6CDFBF462FE7CB0900A9F99B /* Debug */,
-				6CDFBF472FE7CB0900A9F99B /* Release */,
+				6CBA58593006220900E393D6 /* Debug */,
+				6CBA585A3006220900E393D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

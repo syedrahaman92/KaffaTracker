@@ -2,35 +2,26 @@
 //  KaffaTrackerTests.swift
 //  KaffaTrackerTests
 //
-//  Created by Syed Rahaman on 11/06/26.
+//  Created by Syed Rahaman on 14/07/26.
 //
 
-import XCTest
+import Testing
 @testable import KaffaTracker
 
-final class KaffaTrackerTests: XCTestCase {
+struct KaffaTrackerTests {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    @Test("Reset player scores", arguments: [0, 10, 20])
+    func resetScores(to newValue: Int) async throws {
+        var scoreboard = Scoreboard(players: [
+            Player(name: "Elisha", score: 0),
+            Player(name: "Andre", score: 5)
+        ])
+        scoreboard.reserScores(to: newValue)
+        
+        for player in scoreboard.players {
+            #expect(player.score == newValue)
         }
+
     }
 
 }
